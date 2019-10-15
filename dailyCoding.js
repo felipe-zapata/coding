@@ -1,3 +1,4 @@
+//I'm not that proud of this, but any other resource that I have to show my coding skills is private.
 function arrayMedian(A) {
     const even = A.length % 2 === 0;
     const sorted = A.sort();
