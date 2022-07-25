@@ -3,12 +3,13 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "mocha"
+    "test": "node --experimental-vm-modules $(yarn bin jest)"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "mocha": "^6.2.1"
+    "jest": "^28.1.3"
   }
 }
